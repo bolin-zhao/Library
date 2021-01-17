@@ -1,0 +1,36 @@
+package cn.bolin.domain;
+
+
+
+/**
+ * Create By Bolin on 12.25
+ */
+public class BookCase {
+    private Integer id;
+    private String name;
+
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public BookCase(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public BookCase() {
+    }
+}
